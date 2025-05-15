@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Form And Input</title>
+<link rel="stylesheet"  href="css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="container pt-3">
+<form action="#" method="" class="needs-validation novalidate bg-transparent">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"required>
+    
+     <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+    Enter a Valid Email
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+    	Please,Enter a Valid Password
+    </div>
+  </div>
+
+  <select class="form-select mb-3 text-black" aria-label="Default select example">
+  <option selected >Select Your Pograming Language</option>
+  <option value="1">Javascript</option>
+  <option value="2">Php</option>
+  <option value="3">Python</option>
+</select>
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"required>
+    <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
+
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
